@@ -5,7 +5,7 @@
         public static bool IsPrimeNumber(uint n)
         {
             uint m = n;
-            uint i = 0;
+            uint i = 2;
             if (m == 0 || m == 1)
             {
                 return false;
